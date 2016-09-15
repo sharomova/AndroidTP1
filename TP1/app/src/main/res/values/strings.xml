@@ -1,0 +1,28 @@
+<resources>
+    <string name="app_name">Media Library</string>
+    <string name="nomAmi">Name of friend</string>
+    <string name="telephone">Telephone</string>
+    <string name="email">E-mail</string>
+    <string name="valider">Add</string>
+    <string name="agoutAmi">Add a friend</string>
+    <string name="modifierAmi">Modify a friend</string>
+    <string name="modifierMedia">Modify a media</string>
+    <string name="media">Media</string>
+    <string name="tout_media">All media</string>
+    <string name="emprunter_media">Borrowed media</string>
+    <string name="add_media">Add media</string>
+    <string name="ami">Friends</string>
+    <string name="filme">Film</string>
+    <string name="jeu">Game</string>
+    <string name="autre">Another</string>
+    <string name="titre">Title</string>
+    <string name="emprunte_chez">Borrow from : </string>
+    <string name="contacts">Contacts</string>
+    <string name="date_pris">Date of taking</string>
+    <string name="date_prevu">Estimated date of return</string>
+    <string name="date_reele">Actual date of return</string>
+    <string name="ubject_of_email">Subject of email</string>
+    <string name="friend_isnt_existe">Ami ne est pas existé!</string>
+    <string name="up_date">Up Date is imposible!</string>
+    <string name="non_type">You must specify the type of media!</string>
+</resources>

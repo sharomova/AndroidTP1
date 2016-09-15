@@ -1,0 +1,70 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:inputType="textPersonName"
+        android:ems="10"
+        android:id="@+id/modifier_amis_txtNom"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true"
+        android:hint="@string/nomAmi"
+        android:layout_margin="20dp" />
+
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/valider"
+        android:id="@+id/modifier_amis_btnValider"
+        android:layout_alignParentBottom="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginBottom="162dp"
+        android:background="#59b9ff" />
+
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:inputType="phone"
+        android:ems="10"
+        android:id="@+id/modifier_amis_txtTel"
+        android:hint="@string/telephone"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true"
+        android:layout_below="@+id/modifier_amis_txtNom"
+        android:layout_margin="20dp" />
+
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:inputType="textEmailAddress"
+        android:ems="10"
+        android:id="@+id/modifier_amis_txtEmail"
+        android:hint="@string/email"
+        android:layout_below="@+id/modifier_amis_txtTel"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true"
+        android:layout_margin="20dp" />
+
+    <ImageButton
+        android:layout_width="30dp"
+        android:layout_height="30dp"
+        android:id="@+id/modif_amis_btnphone"
+        android:src="@drawable/cellgren"
+        android:layout_alignTop="@+id/modifier_amis_txtTel"
+        android:layout_alignLeft="@+id/modif_amis_btnEmail"
+        android:layout_alignStart="@+id/modif_amis_btnEmail" />
+
+    <ImageButton
+        android:layout_width="30dp"
+        android:layout_height="30dp"
+        android:id="@+id/modif_amis_btnEmail"
+        android:src="@drawable/emaillll"
+        android:layout_alignTop="@+id/modifier_amis_txtEmail"
+        android:layout_alignRight="@+id/modifier_amis_txtEmail"
+        android:layout_alignEnd="@+id/modifier_amis_txtEmail" />
+
+</RelativeLayout>

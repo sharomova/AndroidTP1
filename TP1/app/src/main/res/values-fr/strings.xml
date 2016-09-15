@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">Médiathèque</string>
+    <string name="nomAmi">Nom</string>
+    <string name="telephone">Téléphone</string>
+    <string name="email">Courriel</string>
+    <string name="valider">Valider</string>
+    <string name="agoutAmi">Ajouter un ami</string>
+    <string name="modifierAmi">Modifier un ami</string>
+    <string name="modifierMedia">Modifier un média</string>
+    <string name="media">Média</string>
+    <string name="tout_media">Tout média</string>
+    <string name="emprunter_media">Emprountés média</string>
+    <string name="add_media">Ajouter un média</string>
+    <string name="ami">Amis</string>
+    <string name="filme">Filme</string>
+    <string name="jeu">Jeu</string>
+    <string name="autre">Autre</string>
+    <string name="titre">Titre</string>
+    <string name="emprunte_chez">Emprunter chez : </string>
+    <string name="contacts">Contacts</string>
+    <string name="date_prevu">Date prevue</string>
+    <string name="date_reele">Date de retour</string>
+    <string name="date_pris">Date de emprunt</string>
+    <string name="ubject_of_email">Sujet du courriel</string>
+    <string name="friend_isnt_existe">Friend is not exist!</string>
+    <string name="up_date">Mise à jour est impossible!</string>
+    <string name="non_type">Il faut indiquer le type de media!</string>
+
+</resources>

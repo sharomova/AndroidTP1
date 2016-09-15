@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="New Text"
+        android:id="@+id/un_amis_txtTel"
+        style="@style/Base.TextAppearance.AppCompat"
+        android:layout_below="@+id/un_amis_txtNom"
+        android:layout_alignParentRight="true"
+        android:layout_alignParentEnd="true" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="New Text"
+        android:id="@+id/un_amis_txtEmail"
+        android:layout_below="@+id/un_amis_txtNom"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true"
+        style="@style/Base.AlertDialog.AppCompat"
+        android:layout_marginBottom="@dimen/abc_action_bar_overflow_padding_start_material" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textStyle="bold"
+        android:text="New Text"
+        android:id="@+id/un_amis_txtNom"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true"
+        style="@style/Base.TextAppearance.AppCompat"
+        android:layout_marginTop="@dimen/abc_action_bar_overflow_padding_start_material" />
+</RelativeLayout>

@@ -1,0 +1,29 @@
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools" tools:context=".MainActivity">
+
+    <item android:id="@+id/ajouter_amis"
+        android:icon="@drawable/addgroup"
+       android:title="@string/app_name"
+        app:showAsAction="ifRoom|withText|"/>
+
+    <item android:id="@+id/media"
+        android:title="@string/media"
+       >
+
+        <menu android:id="@+id/sousmenu">
+            <item android:id="@+id/tout_media"
+                android:title="@string/tout_media"   />
+
+            <item android:id="@+id/empruntes_media"
+                android:title="@string/emprunter_media"  />
+
+            <item android:id="@+id/ajouter_media"
+                android:title="@string/add_media"  />
+
+        </menu>
+    </item>
+    <item android:id="@+id/amis"
+        android:title="@string/ami"/>
+
+</menu>

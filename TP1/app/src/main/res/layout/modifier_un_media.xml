@@ -1,0 +1,110 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:inputType="textMultiLine"
+        android:ems="10"
+        android:id="@+id/modifier_media_txtTitre"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true"
+        android:hint="@string/titre"
+        android:layout_marginLeft="10dp"
+        android:layout_marginRight="10dp"
+        android:layout_marginTop="5dp" />
+
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:inputType="textPersonName"
+        android:ems="10"
+        android:id="@+id/modifier_media_txtNom"
+        android:hint="@string/nomAmi"
+        android:layout_below="@+id/modifier_media_rgrpType"
+        android:layout_margin="10dp" />
+
+    <RatingBar
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/modifier_media_rating"
+        android:scaleX="0.8"
+        android:scaleY="0.8"
+        android:progressTint="@android:color/holo_red_dark"
+        android:progressBackgroundTint="@android:color/holo_red_dark"
+        android:secondaryProgressTint="@android:color/holo_red_dark"
+        android:layout_below="@+id/modifier_media_txtDateReelle"
+        android:layout_alignLeft="@+id/modifier_media_txtDatePrevu"
+        android:layout_alignStart="@+id/modifier_media_txtDatePrevu" />
+    <RadioGroup
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/modifier_media_rgrpType"
+        android:layout_below="@+id/modifier_media_txtTitre"
+        android:layout_marginLeft="10dp">
+
+        <RadioButton
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/filme"
+            android:id="@+id/modifier_media_rdbFilme"
+            android:checked="false" />
+
+        <RadioButton
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/jeu"
+            android:id="@+id/modifier_media_rdbJeu"
+            android:checked="false" />
+
+        <RadioButton
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/autre"
+            android:id="@+id/modifier_media_rdbAutre" />
+    </RadioGroup>
+
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/valider"
+        android:id="@+id/modifier_media_btnValider"
+        android:background="#59b9ff"
+        android:layout_alignBottom="@+id/modifier_media_rating"
+        android:layout_toRightOf="@+id/modifier_media_rating"
+        android:layout_toEndOf="@+id/modifier_media_rating" />
+
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:inputType="textPersonName"
+        android:ems="10"
+        android:id="@+id/modifier_media_txtDateReelle"
+        android:layout_below="@+id/modifier_media_txtDatePrevu"
+        android:layout_centerHorizontal="true"
+        android:layout_margin="10dp"
+        android:hint="@string/date_reele" />
+
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:inputType="textPersonName"
+        android:ems="10"
+        android:id="@+id/modifier_media_txtDatePrevu"
+        android:layout_below="@+id/modifier_media_txtDatePris"
+        android:layout_margin="10dp"
+        android:hint="@string/date_prevu" />
+
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:inputType="textPersonName"
+        android:ems="10"
+        android:id="@+id/modifier_media_txtDatePris"
+        android:layout_below="@+id/modifier_media_txtNom"
+        android:layout_margin="10dp"
+        android:hint="@string/date_pris" />
+
+</RelativeLayout>
